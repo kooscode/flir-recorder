@@ -28,10 +28,6 @@ int main(int argc, char** argv)
     
     std::string outfile = argv[1];
     
-    std::cout << outfile << std::endl;
-    
-    return 0;
-    
     // Retrieve singleton reference to system object
     SystemPtr system = System::GetInstance();
 
